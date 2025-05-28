@@ -1,0 +1,28 @@
+# Ignore environment variable files
+.env
+**/.env
+
+# Ignore virtual environment and Python cache
+venv/
+__pycache__/
+.DS_Store
+.vscode/
+
+# Ignore all bin and lib directories anywhere in the project
+bin/
+lib/
+**/bin/
+**/lib/
+
+# Ignore all etc directories anywhere in the project
+etc/
+**/etc/
+
+# Ignore all share directories anywhere in the project
+share/
+**/share/
+
+
+# Ignore all virtual environment configuration files
+pyvenv.cfg
+**/pyvenv.cfg
